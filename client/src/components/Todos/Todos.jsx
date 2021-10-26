@@ -1,7 +1,7 @@
-import {FC, useCallback, useEffect, useState} from 'react';
+import {useCallback, useEffect, useState} from 'react';
 import {useAxios} from "../../hooks/useAxios";
 
-export const Todos: FC = () => {
+export const Todos = () => {
 
     const [state, setState] = useState({})
 

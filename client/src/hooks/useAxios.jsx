@@ -8,7 +8,7 @@ export const useAxios = () => {
     const request = async () => {
         setLoading(true)
         const response = axios.get('http://localhost:5000/api').then( (res) => res.data)
-        const data: object = response
+        const data = response
 
         setLoading(true)
 

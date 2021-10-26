@@ -1,9 +1,8 @@
-import {FC} from 'react';
 import { Route } from 'react-router-dom';
 import {Header} from "./components/Header/Header";
 import {Todos} from "./components/Todos/Todos";
 
-const App: FC = () => {
+const App = () => {
 
     return (
         <div className="container">
